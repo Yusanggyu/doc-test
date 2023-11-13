@@ -6,6 +6,7 @@ for _ in range(a):
   b = b - 50 if list(str(b))[2] == '0' else b - 10
   c = c + 50 if list(str(c))[2] == '5' else c + 10
   ride[b] = c
+  
 rides = sorted(ride.items(), key=lambda x:x[1])
 longest = 0
 for i in range(a+1):
