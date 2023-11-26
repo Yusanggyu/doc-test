@@ -1,7 +1,12 @@
-#Markdown prac
+# Markdown prac
 
-### Text Format
-
+Text Format
+===========
+'''
+_italics_
+**bold**
+**_bold and italics_**
+'''
 _italics_
 **bold**
 **_bold and italics_**
