@@ -5,6 +5,7 @@
         "P1180.C": "cpp",
         "P1101.C": "cpp",
         "4_line_plus.C": "cpp",
-        "ssdf.C": "cpp"
+        "ssdf.C": "cpp",
+        "search_algorithm.C": "cpp"
     }
 }
