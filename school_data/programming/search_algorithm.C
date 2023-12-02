@@ -14,12 +14,10 @@ void write_post() {
     return;
   }
 
-  // 검색
   printf("글을 작성하세요\n");
   scanf(" %[^\n]", posts[post_count]);
   post_count++;
-  printf("글이 성공적으로 작성되었습니다.");
-  printf("\n");
+  printf("글이 성공적으로 작성되었습니다.\n");
 }
 
 void search_posts() {
@@ -38,7 +36,7 @@ void search_posts() {
     }
   }
   // 없을때 새로운 검색어 추가
-  if (exists) {
+  if (!exists) {
     printf("검색 결과가 없습니다.\n");
     strcpy(search_terms[distinct_search_terms], search_term);
     search_term_count[distinct_search_terms]++;
