@@ -10,6 +10,7 @@ void setup(){
 
 
 void loop(){
+    // 박격포 각도 조절
     int ga = analogRead(A1);
     int ga2 = analogRead(A4);
     int sub = map(ga,0,1023,150,30);
