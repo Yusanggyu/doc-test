@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>타이틀</title>
+</head>
+<style type="text/css" rel="stylesheet">
+    .dark-example-02 {
+      background: black;
+      color: white;
+      border: 2px;
+      border-style: solid;
+      border-color: white;
+      border-radius: 6px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+  
+    .dark-example-02-btn {
+      background-color: #e7e7e7;
+      color: black;
+      border: none;
+      padding: 7px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+  </style>
+
+<body style="background-color: white">
+    <form>
+        <fieldset>
+            <legend><strong>로그인 화면</strong></legend>
+            ID : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id='userid' type='text' /><br>
+            password : <input type='password' />
+            <p>
+                <button onclick='alert("로그인 성공")'>저장</button>
+        </fieldset>
+        <p></p>
+        <fieldset>
+            <legend><strong>개인 정보</strong></legend>
+            <strong>Gender</strong> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="lang">
+                <option>Select a gender</option>
+                <option>남성</option>
+                <option>여성</option>
+            </select><br>
+            <strong>Name</strong> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="name"
+                placeholder="이름"><br>
+            <strong>Age</strong> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="number" placeholder="나이"><br>
+            <strong>Favorite color</strong> : <input type="color"><br>
+            <strong>Reason to join</strong> : <br>
+            <p><textarea cols="50" rows="10"></textarea></p>
+            <fieldset style="width: 325px">
+                <input type="checkbox"> 로봇이 아닙니다. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="C:\Users\user\Downloads\recap.png" width="25">
+            </fieldset>
+            <p><input type="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
