@@ -1,0 +1,1 @@
+print(f'[{int(input()), {float(input())}, '\''{input()}'\''}]')
